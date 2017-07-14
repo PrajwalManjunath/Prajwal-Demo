@@ -1,0 +1,57 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>miisky</title>
+	<style type="text/css">
+		
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Federo);
+	body{
+		position: relative;
+		background: #f1c40f;
+    color: #fff;
+    padding: 30px;
+
+	}
+	.overlay{
+		background-color: rgba(158, 158, 158, 0.35);
+		width:100%;
+		height:100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10;
+	}
+	.modal{
+	width: 300px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+	}
+	.content {
+    margin: 30px;
+}
+
+	</style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="modal">I'm the modal window!</div>
+  <div class="content">
+      <h1>Creating an Overlay with an Absolutely Positioned Element</h1>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint blanditiis perspiciatis nesciunt possimus minus molestiae culpa necessitatibus atque ut eveniet id magnam delectus reprehenderit! Ad atque aperiam rerum quas vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit esse nihil iusto ea natus aliquam enim ducimus deleniti vitae quibusdam aperiam voluptatibus necessitatibus nulla id non consectetur 
+  </div>
+
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
